@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.caixa01 {
+    /* border: 1px solid red; */
+    width: 119.9em;
+    height: 107.1em;
+    background-color: #fafbff;;
+
+}
+
+.caixa02 {
+    /* border: 1px solid red; */
+    width: 22em;
+    height: 27em;
+    background-color: #757A96;
+    text-align: center;
+}
+
+.titulo-dashboard {
+    color: white;
+    font-size: 52px;
+    padding-top: 40px;
+    font-family: Poppins;
+}
+
+.caixa03 {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    padding: 20px;
+    width: 2em;
+}
+
+.dashboard-indicadores {
+    font-size: 20px;
+    font-family: Poppins;
+    color: white;
+}
+
+
+.caixa04 {
+    /* border: 1px solid red; */
+    width: 22em;
+    height: 80em;
+    background-color: #131a42;
+}
