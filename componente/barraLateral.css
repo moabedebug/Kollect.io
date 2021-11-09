@@ -7,7 +7,7 @@
     border: 0;
 }
 
-.caixa01 {
+.Resolução-tela {
     /* border: 1px solid red; */
     width: 119.9em;
     height: 107.1em;
@@ -15,7 +15,7 @@
 
 }
 
-.caixa02 {
+.dashboard {
     /* border: 1px solid red; */
     width: 22em;
     height: 27em;
@@ -30,7 +30,7 @@
     font-family: Poppins;
 }
 
-.caixa03 {
+.opçoes-dashboard {
     margin-top: 20px;
     /* border: 1px solid red; */
     display: flex;
@@ -49,13 +49,9 @@
 }
 
 
-.caixa04 {
+.caixa-roxa {
     /* border: 1px solid red; */
     width: 22em;
     height: 80em;
     background-color: #131a42;
-}
-
-.caixa05 {
-    border: 1px solid red;
 }
