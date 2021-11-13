@@ -7,16 +7,15 @@
     border: 0;
 }
 
-.Resolução-tela {
-    /* border: 1px solid red; */
-    width: 119.9em;
-    height: 107.1em;
+.barra-lateral {
+    border: 1px solid red;
+    width: 22em;
+    height: 107em;
     background-color: #fafbff;;
-
 }
 
-.dashboard {
-    /* border: 1px solid red; */
+.indicadores{
+    border: 1px solid red;
     width: 22em;
     height: 27em;
     background-color: #757A96;
@@ -30,9 +29,9 @@
     font-family: Poppins;
 }
 
-.opçoes-dashboard {
+.caixa03 {
     margin-top: 20px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     align-items: center;
 }
@@ -40,6 +39,170 @@
 .icons {
     padding: 20px;
     width: 2em;
+}@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.barra-lateral {
+    width: 22em;
+    height: 100em;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+
+.dashboard {
+    background-color: #757A96;
+    border: 1px solid #757A96;
+    width: 21.8em;
+    height: 30em;
+}
+
+.titulo-dashboard {
+    font-family: Poppins;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.indicadores {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-indicadores {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Poppins;
+    color: white;
+}
+
+.caixa-roxa {
+    background-color: #131a42;
+    /* border: 1px solid red; */
+    width: 21.8em;
+    height: 69.7em;
+}
+
+.header{
+    display: flex;
+    
+}
+
+.cabeçalho-1{
+    margin-left: 22em;
+    width: 50em;
+    height: 6em;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.titulo {
+    margin-left: 20px;
+    padding: 30px;
+    font-family: Roboto;
+}
+
+.cabeçalho-2{
+    margin-top: 20px;
+    width: 46.5em;
+    height: 6em;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.esquerda {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+}
+
+.direito {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+}
+
+
+.icons-1 {
+    width: 35px;
+    height: 35px;
+    margin-right: 35px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.icons-2 {
+    width: 35px;
+    height: 35px;
+    margin-right: 35px;
+}
+
+.nome-usuario {
+    font-family: Dongle;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.conteudo{
+    margin-top: 2em;
+    margin-left: 22.3em;
+    width: 96em;
+    height: 15em;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes-grafico {
+    background-color: white;
+    margin: 4em;
+    /* border: 1px solid rgb(158, 106, 241); */
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 8px;
+    width: 25em;
+    height: 12em;
+    cursor: pointer;
+}
+
+.nome-opcoes {
+    font-family: Roboto;
+    margin-bottom: 35px;
+    
+}
+
+.numero-opcoes {
+    font-size: 45px;
+}
+
+button:hover {
+    border-color: rgb(158, 106, 241);
+    color: rgb(158, 106, 241); 
+    box-shadow: 5px 2px rgb(158, 106, 241);
+}
+
+.grafico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 6em;
+    margin-left: 24em;
+    width: 93em;
+    height: 55em;
+    border: 1px solid rgb(158, 106, 241);;
 }
 
 .dashboard-indicadores {
@@ -49,9 +212,13 @@
 }
 
 
-.caixa-roxa {
+.caixa04 {
     /* border: 1px solid red; */
     width: 22em;
     height: 80em;
     background-color: #131a42;
+}
+
+.caixa05 {
+    border: 1px solid red;
 }

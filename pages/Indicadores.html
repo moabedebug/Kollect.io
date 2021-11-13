@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="/public/css/indicadores.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
+    <link rel="stylesheet" href="/public/css/indicadores.css">
+    <title>Dashboard</title>
 </head>
 <body>
-    <div class="caixa01">
-        <div class="caixa02">
-            <h1 class="titulo-dashboard">Kollect.io</h1>
+    <div class="barra-lateral">
+        <div class="dashboard">         
+            <h1 class="titulo-dashboard">Kollect.io</h1> 
 
-            <div class="caixa03">
-                <img src="/public/icons/grafico-de-pizza.png" class="icons">
-                <p class="dashboard-indicadores">Indicadores</p>
+            <div class="indicadores">
+                <img src="/public/icons/grafico-de-pizza.png" class="icons-1">
+                <p class="titulo-indicadores">Indicadores</p>
             </div>
-            <div class="caixa03">
-                <img src="/public/icons/formularios-do-google.png" class="icons">
-                <p class="dashboard-indicadores">Subir nova lista</p>
+            <div class="indicadores">
+                <img src="/public/icons/formularios-do-google.png" class="icons-1">
+                <p class="titulo-indicadores">Subir nova lista</p>
             </div>
-            <div class="caixa03">
-                <img src="/public/icons/grupo.png" class="icons">
-                <p class="dashboard-indicadores">Disparar lembrete</p>
+            <div class="indicadores">
+                <img src="/public/icons/grupo.png" class="icons-1">
+                <p class="titulo-indicadores">Disparar lembrete</p>
             </div>
 
         </div>
-        <div class="caixa04"></div>
-    
-</body>
+        <div class="caixa-roxa"></div>
+    </div> 
+
+    <div class="header">
+        <div class="cabeçalho-1">
+            <h1 class="titulo">Resumo da operação de Cobrança Preventiva</h1>
+        </div>    
+        
+        <div class="cabeçalho-2">
+            <div class="esquerda">
+                <img src="/public/icons/lupa.png" class="icons-2">
+                <img src="/public/icons/sinos.png" class="icons-2">   
+                <h1>|</h1>
+            </div> 
+            <div class="direito">
+                <h1 class="nome-usuario">usuario</h1>
+                <img src="/public/icons/avatar.png" class="icons-2">
+             </div>   
+        </div>
+    </div>    
+
+    <div class="conteudo">  
+        <button class="opcoes-grafico">
+            <h1 class="nome-opcoes">Acordos na base</h1>
+            <h1 class="numero-opcoes">500</h1>
+        </button>
+        <button class="opcoes-grafico">
+            <h1 class="nome-opcoes">Contatos realizados</h1>
+            <h1 class="numero-opcoes">91</h1>
+        </button>
+        <button class="opcoes-grafico">
+            <h1 class="nome-opcoes">SMS disparados</h1>
+            <h1 class="numero-opcoes">364</h1>
+        </button>
+        <button class="opcoes-grafico">
+            <h1 class="nome-opcoes">E-mails disparados</h1>
+            <h1 class="numero-opcoes">364</h1>
+        </button>       
+    </div>
+
+    <div class="grafico">GRAFICO</div>
+        
 </html>
