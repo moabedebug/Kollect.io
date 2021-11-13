@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.barra-lateral {
+    width: 22em;
+    height: 100em;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+
+.dashboard {
+    background-color: #757A96;
+    border: 1px solid #757A96;
+    width: 21.8em;
+    height: 30em;
+}
+
+.titulo-dashboard {
+    font-family: Poppins;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.indicadores {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-indicadores {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Poppins;
+    color: white;
+}
+
+.caixa-roxa {
+    background-color: #131a42;
+    /* border: 1px solid red; */
+    width: 21.8em;
+    height: 69.7em;
+}
+
+.icons-1 {
+    width: 35px;
+    height: 35px;
+    margin-right: 35px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.icons-2 {
+    width: 35px;
+    height: 35px;
+    margin-right: 35px;
+}
+
+.cabeçalho-2{
+    margin-top: 20px;
+    width: 46.5em;
+    height: 6em;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    float: right;
+
+}
+
+.esquerda {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+}
+
+.direito {
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+}
+
+.nome-usuario {
+    font-family: Dongle;
+    font-size: 30px;
+    padding-right: 20px;
+}
