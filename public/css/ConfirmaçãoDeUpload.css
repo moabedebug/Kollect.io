@@ -141,7 +141,7 @@
 }
 
 .instrucoes-confirmar {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 6em;
     margin-left: 40em;
     width: 60em;
@@ -151,7 +151,7 @@
 .titulo-confirmar {
     /* border: 1px solid red; */
     font-family: Dongle;
-    font-size: 70px;
+    font-size: 60px;
     color: #131a42;
 }
 
@@ -168,6 +168,7 @@
 }
 
 .button {
+    margin-right: 30px;
     cursor: pointer;
     width: 10em;
     height: 2em;
@@ -182,6 +183,7 @@
 .button-2 {
     cursor: pointer;
     width: 10em;
+    height: 2em;
     border-radius: 15px;
     background-color: rgb(166, 170, 166);
     border: 4px solid rgb(212, 211, 211);
